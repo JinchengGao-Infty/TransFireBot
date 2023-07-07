@@ -78,7 +78,7 @@ namespace SysBot.Pokemon.Dodo
                 var r = DodoBot<T>.Info.CheckIndex(i);
                 if (r != 0)
                 {
-                    DodoBot<T>.SendChannelAtMessage(r, $"请注意,你在第{i + 1}位,{i}个以后该到你了！\n", ChannelId);
+                    DodoBot<T>.SendChannelAtMessage(r, $"请注意,你在第{i + 1}位,{i}个以后该到你了！,注意时间\n", ChannelId);
                 }
             }
         }

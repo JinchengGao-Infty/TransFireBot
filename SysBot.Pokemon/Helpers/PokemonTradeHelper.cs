@@ -321,7 +321,7 @@ namespace SysBot.Pokemon.Helpers
         {
             if (!queueInfo.GetCanQueue())
             {
-                msg = "对不起, 我不再接受队列请求!";
+                msg = "下班了下班了,如果现在是晚上那么请早早睡觉,\n如果是早上你可以尝试叫扫地才子起床!\n如果现在是白天,那我可能要放一整天的假了";
                 return false;
             }
             return Check(pkm, out msg);
@@ -345,7 +345,7 @@ namespace SysBot.Pokemon.Helpers
             }
             if (!queueInfo.GetCanQueue())
             {
-                msg = "对不起, 我不再接受队列请求!";
+                msg = "下班了下班了,如果现在是晚上那么请早早睡觉,\n如果是早上你可以尝试叫扫地才子起床!\n如果现在是白天,那我可能要放一整天的假了";
                 return false;
             }
 
